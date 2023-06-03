@@ -3,36 +3,35 @@ body{
     background-image: url(bg.webp);
     background-position-y: 60px ; 
     background-size: cover; 
-    height: 110vh;
+    height: 100vh;
     overflow-x: hidden;
     background-repeat: round;
-   
 }
 header{
-
+    width: 100vw;
     font-family: 'Roboto', sans-serif;
     padding:20px;
     position: sticky;
     top:0px;
+    margin-right: 0;
     background-color: hsl(0, 0%, 7%);
 }  
 
 .logo{
-   
+    width: 15vw;
     display: inline-block;
-    width: 150px;
     color: white ;
-    font-size: larger;
+    font-size: 1.4vmax;
     cursor: pointer;
+    text-align: center;
 }
 
 .navbox{
-
-    width: 600px;
+    width: 80vw;
     display: inline-block;
     position: absolute;
-    right: 10px;
-    word-spacing: 20px;
+    word-spacing: 2.5vmax;
+    text-align: end;   
 }
 
 #homie{
@@ -44,42 +43,48 @@ header{
     color: white;
     margin: 20px;
     text-decoration: none;
+    font-size: 1.2vmax;
 }
 
 .navbox > a:hover{
     color: salmon;
     transition: all 0.5s;
 }
+.container{
+    margin-top: 15vh;
+}
 
 .heading{
     color: salmon;
-    font-size: 80px;
+    font-size: 5vmax;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
     position: relative;
-    left:70px;
-    width:500px;
-    top: 60px;
- 
- 
+    left:3.5vmax;
+    width:50vw;
+    margin-bottom: 0;
 }
 
 .heading + h3{
     color: rgba(255, 255, 255, 0.966);
     font-family: 'Roboto';
     position: relative;
-    left: 90px;
-    font-size: 40px;
+    left:4vw;
+    font-size: 2vmax;
+    margin-top: 0;
+   
 }
 
 .heading+h3+p{
     color: white;
     font-style: italic;
     position: relative;
-    left:80px;
-    width:400px;
-    word-spacing: 4px;
-    top: 20px;
+    left:4vmax;
+    width:23vw;
+    word-spacing: 1vmax;
+    top: 1vmax;
+    font-size: 1vmax;
 }
+
 
 .btn{
     color: rgb(15, 15, 15);
@@ -87,15 +92,16 @@ header{
     border-radius: 5px;
     border: 2px solid salmon;
     background-color: salmon;
-    width: 150px;
-    padding: 15px;
+    width: 10vw;
+    padding: 0.6vmax;
     font-family: 'Roboto';
     position: relative;
-    left: 80px;
-    top: 20px;
+    left: 4vmax;
+    top: 1vmax;
     font-weight: 600px;
     cursor: pointer;
     transition: all 0.5s; 
+    font-size: .8vmax;
 }
 
 .btn:hover{
